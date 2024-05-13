@@ -1,1 +1,17 @@
-#
+#Client - npx create-react-app ./
+
+#Server - npm init -y, npm install express body-parser cors mongoose nodemon
+
+- Note - body-parser is used for sending post requests, cors is used for cross-origin request, mongoose is used for creating models, nodemon is to resend the server incase of any change.
+
+- Next - add the fflg code to the backend package.json file - 
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+
+#Client - npm install axios moment react-file-base64 redux redux-thunk    
+    axios is for api requests, moment is for working with time and date, react-file-base64 for converting images, redux-thunk for async tasks
+
+
+
